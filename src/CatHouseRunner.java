@@ -15,7 +15,7 @@ public class CatHouseRunner
         cats.rollCall();
 
         // HERE IS TEST CODE; UNCOMMENT WHEN YOU NEED IT!
- /*
+
     // ------- Test set 1 -------
     Cat garfield = new Cat("Garfield", 5);
     Cat crookshanks = new Cat("Crookshanks", 6);
@@ -80,6 +80,6 @@ public class CatHouseRunner
 
     sameCats.catNoise();
 
-    */
+
     }
 }

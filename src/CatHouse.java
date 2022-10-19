@@ -23,10 +23,10 @@ public class CatHouse
             String cat1Name = cat1.getName();
             String cat2Name = cat2.getName();
             int alphabetOrder = cat1Name.compareTo(cat2Name);
-            if (alphabetOrder > 0) {
+            if (alphabetOrder < 0) {
                 cat1.introduce();
                 cat2.introduce();
-            } else if (alphabetOrder < 0) {
+            } else if (alphabetOrder > 0) {
                 cat2.introduce();
                 cat1.introduce();
             } else {
@@ -38,8 +38,8 @@ public class CatHouse
 
     public void catNoise()
     {
-        cat1.speak();
-        cat2.speak();
+        System.out.println(cat1.speak());
+        System.out.println(cat2.speak());
     }
 
     public String toString()
@@ -51,4 +51,3 @@ public class CatHouse
         return str;
     }
 }
-
